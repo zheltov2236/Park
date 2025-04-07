@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="56f264bb-f4a7-45a9-8cfa-0e2b3b2eee59">
+  <producedTypes>
+    <objectType typeId="ce86466a-4398-4210-9ff4-52cb6e3f182f" valueTypeId="b549fd7e-670d-48bc-97c1-5f54c21368ae"/>
+    <refType typeId="b32af0c9-3ab7-4d2c-bd62-f21214454fbd" valueTypeId="939d4069-5ce8-435b-adf8-9e7a4d36e322"/>
+    <selectionType typeId="ea83474b-37f5-492f-8f42-30dc08ac2607" valueTypeId="1b80d9a8-29ba-4a45-8869-db6b1f01fa25"/>
+    <listType typeId="7d8cfb16-7c40-439f-b5cd-dc71e8317dce" valueTypeId="1315f05c-1fa8-448a-ace6-7715913a6df5"/>
+    <managerType typeId="d1848f03-4dc7-4398-b452-63886e35be67" valueTypeId="433b4a95-c43a-4e9e-b9ca-26faadd55967"/>
+  </producedTypes>
+  <name>Аттракционы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аттракционы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Аттракционы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Аттракционы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Аттракцион</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
