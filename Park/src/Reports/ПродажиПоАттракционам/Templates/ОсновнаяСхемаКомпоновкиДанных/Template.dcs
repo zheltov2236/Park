@@ -11,25 +11,18 @@
 			<field>СуммаОборот</field>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Аттракционы</dataPath>
-			<field>Аттракционы</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Аттракционы</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>ВидАттракцион</dataPath>
 			<field>ВидАттракцион</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
-	ПродажиОбороты.Аттракционы,
-	ПродажиОбороты.СуммаОборот
+    ПродажиОбороты.ВидАттракцион,
+    ПродажиОбороты.СуммаОборот
 ИЗ
-	РегистрНакопления.Продажи.Обороты КАК ПродажиОбороты</query>
+    РегистрНакопления.Продажи.Обороты КАК ПродажиОбороты</query>
 	</dataSet>
 	<totalField>
 		<dataPath>СуммаОборот</dataPath>
@@ -89,7 +82,7 @@
 		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
 			<dcsset:selection>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>Аттракционы</dcsset:field>
+					<dcsset:field>ВидАттракцион</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>СуммаОборот</dcsset:field>
